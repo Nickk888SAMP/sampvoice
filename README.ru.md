@@ -1,5 +1,5 @@
 # **SAMPVOICE**
-* [English](https://github.com/CyberMor/sampvoice/blob/master/README.md) | Русский
+* [English](https://github.com/ZTzTopia/sampvoice/blob/master/README.md) | Русский
 * [0.3DL](https://github.com/ZTzTopia/sampvoice/tree/test)
 
 ## Описание
