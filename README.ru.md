@@ -1,7 +1,7 @@
 # **SAMPVOICE**
 * [English](https://github.com/CyberMor/sampvoice/blob/master/README.md) | Русский
 * [0.3DL](https://github.com/ZTzTopia/sampvoice/tree/test)
-* 
+
 ## Описание
 ---------------------------------
 **SAMPVOICE** - это набор разработчика для реализации систем голосового общения на языке *Pawn* под сервера *SA:MP*.
