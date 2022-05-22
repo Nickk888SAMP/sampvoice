@@ -705,8 +705,8 @@ namespace SV
 
 PLUGIN_EXPORT void PLUGIN_CALL ProcessTick() noexcept
 {
-    Timer::Tick();
-    SV::Tick();
+    //Timer::Tick();
+    //SV::Tick();
 }
 
 PLUGIN_EXPORT void PLUGIN_CALL Unload() noexcept
