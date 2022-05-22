@@ -738,7 +738,7 @@ BOOL WINAPI WinExitHandler(DWORD) noexcept
 #endif
 
 PLUGIN_EXPORT bool PLUGIN_CALL Load(void** const ppData) noexcept
-{
+{ /*
 #ifdef _WIN32
     SetConsoleCtrlHandler(&WinExitHandler, TRUE);
 #endif
@@ -782,7 +782,7 @@ PLUGIN_EXPORT bool PLUGIN_CALL Load(void** const ppData) noexcept
 
         SV::workers.reserve(nprocs); for (auto i { nprocs }; i > 0; --i)
             SV::workers.emplace_back(MakeWorker());
-    }
+    }*/
 
     Logger::Log(" -------------------------------------------    ");
     Logger::Log("   ___                __   __    _              ");
@@ -792,7 +792,7 @@ PLUGIN_EXPORT bool PLUGIN_CALL Load(void** const ppData) noexcept
     Logger::Log("                  |_|                           ");
     Logger::Log(" -------------------------------------------    ");
     Logger::Log("           SampVoice by MOR loaded              ");
-    Logger::Log("             edited by ZTzTopia                 ");
+    Logger::Log("             edited by Nickk888                 ");
     Logger::Log(" -------------------------------------------    ");
 
     return true;
