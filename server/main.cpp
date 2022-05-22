@@ -738,7 +738,7 @@ BOOL WINAPI WinExitHandler(DWORD) noexcept
 #endif
 
 PLUGIN_EXPORT bool PLUGIN_CALL Load(void** const ppData) noexcept
-{ /*
+{ 
 #ifdef _WIN32
     SetConsoleCtrlHandler(&WinExitHandler, TRUE);
 #endif
@@ -752,7 +752,7 @@ PLUGIN_EXPORT bool PLUGIN_CALL Load(void** const ppData) noexcept
         logprintf("[sv:err:main:Load] : failed to init logger");
         return false;
     }
-
+    /*
     if (!Network::Init(logprintf))
     {
         Logger::Log("[sv:err:main:Load] : failed to init network");
